@@ -8,8 +8,8 @@
 # 3 6 9 12 15 18 
 # 6 12
 
-first_collection = [2, 4, 6, 8, 10, 12, 10, 8, 6, 4, 2]
-second_collection = [3, 6, 9, 12, 15, 18]
+first_collection = list(map(int, input("Введите элементы первого списка(через пробел): ").split()))
+second_collection = list(map(int, input("Введите элементы второго списка(через пробел): ").split()))
 uniq = set()
 for i in first_collection:
     if i in second_collection:
